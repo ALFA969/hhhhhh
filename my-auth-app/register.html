@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h2>REGISTER</h2>
+        <div class="underline"></div>
+
+        <form id="registerForm">
+            <div class="input-group">
+                <input type="text" id="regName" required placeholder=" ">
+                <label for="regName">Full Name</label>
+            </div>
+
+            <div class="input-group">
+                <input type="email" id="regEmail" required placeholder=" ">
+                <label for="regEmail">Email</label>
+            </div>
+            
+            <div class="input-group">
+                <input type="password" id="regPassword" required placeholder=" ">
+                <label for="regPassword">Password</label>
+            </div>
+
+            <button type="submit" class="btn-gradient">CREATE ACCOUNT</button>
+        </form>
+
+        <p class="toggle-text">
+            Already have an account? <a href="login.html">Login</a>
+        </p>
+    </div>
+
+    <footer class="footer">KY©copyright 2019</footer>
+
+    <script src="auth.js"></script>
+    <script src="register.js"></script>
+</body>
+</html>

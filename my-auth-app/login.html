@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h2>LOGIN</h2>
+        <div class="underline"></div>
+
+        <form id="loginForm">
+            <div class="input-group">
+                <input type="email" id="loginEmail" required placeholder=" ">
+                <label for="loginEmail">Email</label>
+            </div>
+            
+            <div class="input-group">
+                <input type="password" id="loginPassword" required placeholder=" ">
+                <label for="loginPassword">Password</label>
+            </div>
+
+            <div class="forgot-link">
+                <a href="#">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="btn-gradient">LOGIN</button>
+        </form>
+
+        <p class="toggle-text">
+            Don't have account yet? <a href="register.html">Register</a>
+        </p>
+    </div>
+
+    <footer class="footer">KY©copyright 2019</footer>
+
+    <script src="auth.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>
